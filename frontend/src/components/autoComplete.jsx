@@ -8,6 +8,9 @@ const AutoComplete = () => {
         fields: ["address_components", "geometry", "icon", "name"],
         types: ["establishment"]
     };
+
+
+    
     useEffect(() => {
         autoCompleteRef.current = new window.google.maps.places.Autocomplete(
             inputRef.current,
